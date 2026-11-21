@@ -11,10 +11,6 @@
 <body>
 <main id="app"></main>
 <div id="sheet"></div>
-<script>
-window.addEventListener('error',function(e){var a=document.getElementById('app');if(a&&!a.innerHTML)a.innerHTML='<h1>Beurzen</h1><p>Fout bij laden: '+e.message+'</p>'});
-setTimeout(function(){var a=document.getElementById('app');if(a&&!a.innerHTML)a.innerHTML='<h1>Beurzen</h1><p>De app kon niet starten. Controleer of firebase-config.js klopt en of alle bestanden in de hoofdmap van de repository staan. Open je de pagina via een link (https) en niet als los bestand?</p>'},3000);
-</script>
-<script type="module" src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

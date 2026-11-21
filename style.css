@@ -31,10 +31,3 @@ input{flex:1;padding:13px;border-radius:12px;border:1.5px solid var(--ln);backgr
 .foot{display:flex;gap:8px;margin-top:14px}.foot button{flex:1}
 .sheet{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:flex-end;z-index:5}
 .sheet>div{background:var(--bg);width:100%;max-width:480px;margin:0 auto;border-radius:20px 20px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px))}
-.err{color:var(--no);min-height:22px;margin:8px 0 0;font-weight:600}
-.code{font-family:Oswald,sans-serif;font-size:34px;letter-spacing:6px;color:var(--ac)}
-.bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;color:var(--mu);font-size:14px}
-.bar button{min-height:36px;padding:6px 12px;font-size:14px}
-.seg{display:flex;gap:8px;margin:12px 0}.seg button{flex:1}
-.stat{display:flex;justify-content:space-between;padding:12px 4px;border-bottom:1px solid var(--ln)}
-.tot{font-family:Oswald,sans-serif;font-size:72px;color:var(--ac);line-height:1}
